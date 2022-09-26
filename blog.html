@@ -1,0 +1,358 @@
+<eBD:IF EXPR="%lang == ''">
+    <eBD:SET GLOBAL="lang" VALUE="3"/>
+</eBD:IF>
+
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+        <meta name="author" content="ThemeZaa">
+        <!-- description -->
+        <meta name="description" content="POFO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and portfolio HTML5 template with 25 ready home page demos.">
+        <!-- keywords -->
+        <meta name="keywords" content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, coming soon, faq">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="apple-touch-icon" href="images/favicon.png">
+        
+        <!-- style sheets and font icons  -->
+        <link rel="stylesheet" type="text/css" href="css/bootsnav.css">
+        <link rel="stylesheet" type="text/css" href="css/font-icons.min.css">
+        <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <link rel="stylesheet" type="text/css" href="css/personalizado.css" />
+        <!-- Calendly link widget begin -->
+        <link 
+        href="https://calendly.com/assets/external/widget.css" 
+        rel="stylesheet">
+        <script 
+        src="https://calendly.com/assets/external/widget.js" 
+        type="text/javascript"></script>
+        <!-- Calendly link widget end -->
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <title>Bunji</title>
+        <!-- revolution slider -->
+        <link rel="stylesheet" type="text/css" href="revolution/css/settings.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+        <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">    
+    </head>
+    <body> 
+
+        <!-- start header -->
+        <header>
+            <!-- start navigation -->
+            <nav style="min-height: 90px;" class="navbar navbar-default bootsnav navbar-fixed-top header-dark background-transparent white-link navbar-expand-lg">
+                <div class="container-fluid padding-thirteen-lr lg-padding-six-lr sm-padding-15px-lr nav-header-container">
+                    <!-- start logo -->
+                    <div class="col-auto ps-0">
+                        <a href="/home" title="Bunji" class="logo"><img src="images/Logo-bunji-header.png" data-at2x="images/Logo-bunji-header@2x.png" class="logo-dark" alt="Pofo"><img src="images/Logo-bunji-header.png" data-at2x="images/Logo-bunji-header@2x.png" alt="Pofo" class="logo-light default"></a>
+                    </div>
+                    <!-- end logo -->
+                    <div class="col accordion-menu pe-0 pe-md-3"> <!-- data-bs-toggle="collapse" data-bs-target="#navbar-collapse-toggle-1" -->
+                        <button id="show-navbarCover" type="button" class="navbar-toggler collapsed">
+                            <span class="sr-only">toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle-1">
+                            <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal" data-in="animate__fadeIn" data-out="animate__fadeOut">
+                                <!-- start menu item -->
+                                <li>
+                                    <a class="text-uppercase" href="/about-us">Lorem</a>
+                                </li>
+                                <li>
+                                    <a class="text-uppercase" href="/services">Lorem</a>
+                                </li>
+                                <li>
+                                    <a class="text-uppercase" href="/portfolio">Lorem</a>
+                                </li>
+                                <li>
+                                    <a class="text-uppercase" href="/blog">BLOG</a>
+                                </li>
+                                <li>
+                                    <a class="text-uppercase" href="/contact">Lorem</a>
+                                </li>
+                                <li class="border rounded-pill round-rojobunji-button sm-no-border text-uppercase">
+                                    <a onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/kanecode/15min', text: 'Programe una reunión conmigo', color: '#0069ff', textColor: '#ffffff', branding: true });
+                                    return false;" style="color: white;" href="javascript:void(0);">Lorem</a>
+                                </li>
+                                <!-- end menu item -->
+                                <li id="li-langu-input" class="dropdown simple-dropdown"><a href="javascript:void(0)" title="Language">Lorem <i class="fas fa-angle-down d-none d-lg-inline"></i></a><i class="fas fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
+                                    <!-- start sub menu -->
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li class="dropdown"><a class="dropdown-toggle" id="ingles" href="javascript:void(0)">English <i class="fas fa-angle-right"></i></a></li>
+                                        <li class="dropdown"><a class="dropdown-toggle" id="espanol" href="javascript:void(0)">Español <i class="fas fa-angle-right"></i></a></li>
+                                    </ul>
+                                    <!-- end sub menu -->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- end navigation --> 
+        </header>
+        <!-- end header -->
+
+        <!-- inicio Navbar mobile -->
+        <div id="navbar-cover" class="w-100 h-100 position-fixed top-0 left-0 bg-dark-blue text-white-2 text-center d-none d-lg-none" style="z-index: 100000;">
+            <div class="w-100 d-flex flex-column ms-4 p-5 text-start align-items-sm-center">
+                <a class="text-uppercase text-white-2 fw-bold my-4" href="/about-us">ABOUT US</a>
+                <a class="text-uppercase text-white-2 fw-bold my-4" href="/services">SERVICES</a>
+                <a class="text-uppercase text-white-2 fw-bold my-4" href="/portfolio">portfolio</a>
+                <a class="text-uppercase text-white-2 fw-bold my-4" href="/blog">blog</a>
+                <a class="text-uppercase text-white-2 fw-bold my-4" href="/contact">contact us</a>
+                <a class="text-uppercase text-white-2 fw-bold my-4">English</a>
+            </div>
+            <button style="width: 80px;font-size: 80px;" title="Close (Esc)" type="button" class="mfp-close mt-3 close-cover">×</button>
+            <button style="max-width: 400px; height: 57px;" class="close-cover w-100 fw-bold position-absolute bottom-25 left-0 right-0 mx-auto text-white-2 rounded-pill round-rojobunji-button border-0 text-uppercase">
+                <a onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/kanecode/15min', text: 'Programe una reunión conmigo', color: '#0069ff', textColor: '#ffffff', branding: true });
+                return false;" style="color: white;" href="javascript:void(0);">Lorem</a>
+            </button>
+        </div>
+        <!-- Fin Navbar mobile -->
+
+        <!-- start parallax hero section -->
+        <section class="mostrar-back-completo wow animate__fadeIn p-0 parallax sm-background-image-center d-none d-sm-block" data-parallax-background-ratio="0.5" style="background-image:url('images/BLOCK_69.jpg');">
+            <!-- <div class="opacity-extra-medium bg-black"></div> -->
+            <div class="size-banner-style-about2 container-fluid padding-thirteen-lr sm-padding-15px-lr">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 margin-eleven-top px-5">
+                        <p class="text-white-2 alt-font w-45 mt-5 text-60px lh-1"><strong>Lorem</strong></p>
+                        <p class="font-weight-300 text-20px text-graywhite margin-ten-bottom lg-margin-fifteen-bottom w-45 md-margin-twenty-bottom sm-margin-100px-bottom pe-5">Lorem</p>
+                    </div>
+                    <div class="down-section text-center">
+                        <a href="#blogs" class="inner-link go-down-arrow"><i class="ti-arrow-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end parallax hero section -->
+
+        <section class="h-350px cover-background d-block d-sm-none bg-img-darkblue" style="background-image: url('images/BLOCK_69.jpg')">
+            <div class="container-fluid padding-15px-lr py-5 position-relative z-index-1 mt-5">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12">
+                        <p class="text-white-2 text-60px alt-font font-weight-500 lh-sm mb-2 text-center">Lorem</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- start Introduccion section -->
+        <section id="blogs" class="wow fadeIn bg-light no-small-background"  style="background-image: url('images/BLOCK_11.png'); background-repeat:no-repeat">
+            <!-- start post content section --> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 blog-content">
+                        <ul class="blog-masonry blog-wrapper grid grid-loading grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col blog-post-style5 gutter-large" id="blogsHTML">
+                            <!--<li class="grid-sizer"></li>
+                            <li class="grid-item last-paragraph-no-margin wow animate__fadeInUp">
+                                <div class="blog-post">
+                                    <div class="blog-post-images overflow-hidden">
+                                        <a href="blog-post-layout-01.html">
+                                            <img src="images/GettyImages-561368731.jpg" alt="">
+                                        </a>
+                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="blog-grid.html">Graphic Design</a></div>
+                                    </div>
+                                    <div class="post-details padding-35px-all bg-white md-padding-20px-all">
+                                        <div class="blog-hover-color"></div>
+                                        <a href="blog-post-layout-01.html" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom">Without good design it?s easy to miss the mark.</a>
+                                        <div class="author">
+                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="blog-grid.html" class="text-medium-gray">Jay Benjamin</a>  |  17 july 2017</span>
+                                        </div>
+                                        <div class="separator-line-horrizontal-full bg-medium-gray margin-seven-tb lg-margin-four-tb"></div>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="grid-item last-paragraph-no-margin wow animate__fadeInUp">
+                                <div class="blog-post">
+                                    <div class="blog-post-images overflow-hidden">
+                                        <a href="blog-post-layout-02.html">
+                                            <img src="images/shutterstock_1049467553.jpg" alt="">
+                                        </a>
+                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="blog-grid.html">advertisement</a></div>
+                                    </div>
+                                    <div class="post-details padding-35px-all bg-white md-padding-20px-all">
+                                        <div class="blog-hover-color"></div>
+                                        <a href="blog-post-layout-02.html" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom">Everybody can be great. Because anybody can serve.</a>
+                                        <div class="author">
+                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="blog-grid.html" class="text-medium-gray">Herman Miller</a>  |  03 July 2017</span>
+                                        </div>
+                                        <div class="separator-line-horrizontal-full bg-medium-gray margin-seven-tb lg-margin-four-tb"></div>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="grid-item last-paragraph-no-margin wow animate__fadeInUp">
+                                <div class="blog-post">
+                                    <div class="blog-post-images overflow-hidden">
+                                        <a href="blog-post-layout-03.html">
+                                            <img src="images/shutterstock_752885209.jpg" alt="">
+                                        </a>
+                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="blog-grid.html">fashion</a></div>
+                                    </div>
+                                    <div class="post-details padding-35px-all bg-white md-padding-20px-all">
+                                        <div class="blog-hover-color"></div>
+                                        <a href="blog-post-layout-03.html" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom">Never look down on anybody unless you're helping him up.</a>
+                                        <div class="author">
+                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="blog-grid.html" class="text-medium-gray">Jeremy Dupont</a>  |  22 June 2017</span>
+                                        </div>
+                                        <div class="separator-line-horrizontal-full bg-medium-gray margin-seven-tb lg-margin-four-tb"></div>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
+                                    </div>
+                                </div>
+                            </li>           
+                            <li class="grid-item last-paragraph-no-margin wow animate__fadeInUp">
+                                <div class="blog-post">
+                                    <div class="blog-post-images overflow-hidden">
+                                        <a href="blog-post-layout-01.html">
+                                            <img src="images/GettyImages-561368731.jpg" alt="">
+                                        </a>
+                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="blog-grid.html">Graphic Design</a></div>
+                                    </div>
+                                    <div class="post-details padding-35px-all bg-white md-padding-20px-all">
+                                        <div class="blog-hover-color"></div>
+                                        <a href="blog-post-layout-01.html" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom">Without good design it?s easy to miss the mark.</a>
+                                        <div class="author">
+                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="blog-grid.html" class="text-medium-gray">Jay Benjamin</a>  |  17 july 2017</span>
+                                        </div>
+                                        <div class="separator-line-horrizontal-full bg-medium-gray margin-seven-tb lg-margin-four-tb"></div>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
+                                    </div>
+                                </div>
+                            </li>
+                            -->
+                        </ul>
+                    </div>
+                    
+                        <!-- start slider pagination -->
+                        <div class="col-12 text-center margin-100px-top md-margin-50px-top sm-margin-40px-top wow animate__fadeInUp">
+                            <div class="pagination text-small text-uppercase text-extra-dark-gray">
+                                <ul class="mx-auto">
+                                    <li><a href="#"><i class="fas fa-long-arrow-alt-left margin-5px-right d-none d-md-inline-block"></i> Prev</a></li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">Next <i class="fas fa-long-arrow-alt-right margin-5px-left d-none d-md-inline-block"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end slider pagination -->
+                </div>
+            </div>
+            <!-- end post content section -->
+        </section>
+        <!-- end Introduccion section -->
+
+        <!-- start footer --> 
+        <footer class="footer-strip-dark bg-dark-blue padding-50px-top sm-padding-30px-tb">
+        <div class="container">
+            <div class="row text-graywhite justify-content-between border-bottom border-1 pb-4">
+                <!-- start logo -->
+                <div class="col-md-3 text-md-start sm-margin-20px-bottom">
+                    <a href="index.html"><img class="footer-logo" src="images/Logo-bunji-header.png" data-at2x="images/Logo-bunji-header@2x.png" alt="Bunji"></a>
+                    
+                        <ul class="small-icon mb-0">
+                            <li><a class="facebook text-white-2" href="https://www.facebook.com/WeAreBunji/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a class="instagram text-white-2" href="https://www.instagram.com/wearebunji/" target="_blank"><i class="fab fa-instagram me-0" aria-hidden="true"></i></a></li>
+                            <li><a class="twitter text-white-2" href="https://www.linkedin.com/company/wearebunji/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                </div> 
+                <!-- end logo -->
+                <!-- start links -->
+                <div class="col-md-3 text-md-start sm-margin-20px-bottom">
+                    <p class="margin-5px-bottom text-14px fw-bold text-white-2">MENU</p>
+                    <a href="/about-us" class="mb-0 text-13px text-graywhite d-block">Loremus</a>
+                    <a href="/services" class="mb-0 text-13px text-graywhite d-block">Loremes</a>
+                    <a href="/portfolio" class="mb-0 text-13px text-graywhite d-block">Loremio</a>
+                    <a href="/blog" class="mb-0 text-13px text-graywhite d-block">Blog</a>
+                    <a href="/contact" class="mb-0 text-13px text-graywhite d-block">Loremus</a>
+                </div> 
+                <!-- end links -->
+                <!-- start Services -->
+                <div class="col-md-3 text-md-start sm-margin-20px-bottom">
+                    <p class="margin-5px-bottom text-14px fw-bold text-white-2 text-uppercase">Loremes</p>
+                    <a href="/services" class="mb-0 text-13px text-graywhite d-block">Brad strategy & desing</a>
+                    <a href="/services" class="mb-0 text-13px text-graywhite d-block">Email marketing</a>
+                    <a href="/services" class="mb-0 text-13px text-graywhite d-block">E-commerce</a>
+                    <a href="/services" class="mb-0 text-13px text-graywhite d-block">Web site</a>
+                    <a href="/services" class="mb-0 text-13px text-graywhite d-block">Social media advertising</a>
+                    <a href="/services" class="mb-0 text-13px text-graywhite d-block">Social media management</a>
+                </div> 
+                <!-- end Contacto -->
+                <!-- start social media -->
+                <div class="col-md-3 text-md-end">
+                    <div class="social-icon-style-8 d-block align-middle text-start">
+                        <p class="mb-0 text-14px fw-bold text-white-2">Bogota</p>
+                        <p class="mb-0 text-13px text-graywhite d-block">+57 (0) 1596325878</p>
+                    </div>
+                    <div class="social-icon-style-8 d-block align-middle text-start">
+                        <p class="mb-0 text-14px fw-bold text-white-2">Barcelona</p>
+                        <p class="mb-0 text-13px text-graywhite d-block">+57 (0) 1596325878</p>
+                    </div>
+                    <div class="social-icon-style-8 d-block align-middle text-start">
+                        <p class="mb-0 text-14px fw-bold text-white-2">Miami</p>
+                        <p class="mb-0 text-13px text-graywhite d-block">+57 (0) 1596325878</p>
+                    </div>
+                </div>
+                <!-- end social media -->
+                <div class="col-6 d-flex flex-column px-0 justify-content-end d-md-none ms-3 mt-4">
+                    <p class="text-13px text-graywhite mb-0 me-5">Loremnt</p>                        
+                    <p class="text-13px text-graywhite mb-0">Loremcy</p>
+                </div>
+            </div>
+            <div class="row text-graywhite justify-content-start md-margin-5px-left p-3 px-0">
+                <p class="col-12 col-md-6 text-13px text-graywhite mb-0 px-0">&COPY; 2022 Proudly Powered by BUNJI</p>
+                <div class="col-6 d-none px-0 justify-content-end d-md-flex">
+                    <p class="text-13px text-graywhite mb-0 me-5">Loremnt</p>                        
+                    <p class="text-13px text-graywhite mb-0">Loremcy</p>
+                </div>
+            </div>
+        </div>
+        </footer>
+        <!-- end footer -->
+
+    <!-- start scroll to top -->
+    <a class="scroll-top-arrow round-morado-button" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
+    <!-- end scroll to top  -->
+
+    <!-- javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootsnav.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript" src="js/hamburger-menu.js"></script>
+    <script type="text/javascript" src="js/theme-vendors.min.js"></script>          
+    <!-- revolution -->
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    
+    <!-- setting -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+
+
+
+<script>
+    $("#show-navbarCover").click(function() {
+        $("#navbar-cover").removeClass("d-none");
+        $("#navbar-cover").addClass("d-flex");
+    });
+
+    $(".close-cover").click(function() {
+        $("#navbar-cover").removeClass("d-flex");
+        $("#navbar-cover").addClass("d-none");
+    });
+</script>
